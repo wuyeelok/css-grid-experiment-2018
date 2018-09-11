@@ -8,14 +8,12 @@
   grid-template-rows: 100px minmax(200px, 1fr) 100px;
 }
 
-header {
-    grid-column-start: 1;
-    grid-column-end: -1;
+header {   
+    grid-column: 1/-1;
 }
 
 footer {
-    grid-column-start: 1;
-    grid-column-end: -1;
+    grid-column: 1/-1;
 }
 
 
